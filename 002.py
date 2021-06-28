@@ -6,6 +6,8 @@ class LinkNode:
         self.val = element
         self.next = None
 
+#特别注意这个写法是不行的。python的类都是基类，如果直接改写属性的话实例化之后这个属性跟着就会呗改变
+#正确的写法参照021题
 class Link:
 
     root_node = LinkNode(None)#起始根节点没有值
