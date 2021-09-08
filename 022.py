@@ -26,3 +26,6 @@ class Solution:
 solution = Solution()
 result = solution.generateParenthesis(3)
 print(result)
+
+
+
