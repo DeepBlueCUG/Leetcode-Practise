@@ -1,4 +1,5 @@
 # Definition for singly-linked list.
+# 合并两个有序列表
 class LinkNode:
     def __init__(self, val=0, next=None):
         self.val = val
